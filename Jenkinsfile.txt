@@ -1,0 +1,30 @@
+node('Ashutosh')
+{
+    
+    stage('Developer')
+    {
+        echo 'Ashutosh Kumar'
+    }
+    
+    stage('QA')
+    {
+        echo 'Sahil Nagpal'
+        echo 'Ankit shrivastava'
+    }
+    
+    stage('Director')
+    {
+        echo('Rahul Mahajan')
+    }
+    
+    stage('Manager')
+    {
+        echo 'Ravi Gupta'
+    }
+    
+    stage('Upline')
+    {
+        echo 'Rakesh ranjan'
+    }
+    
+}
